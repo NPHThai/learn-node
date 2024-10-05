@@ -1,0 +1,26 @@
+{
+  "name": "lear-node",
+  "version": "1.0.0",
+  "description": "start learn node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NPHThai/Learn_Node.git"
+  },
+  "author": "nphthai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NPHThai/Learn_Node/issues"
+  },
+  "homepage": "https://github.com/NPHThai/Learn_Node#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
